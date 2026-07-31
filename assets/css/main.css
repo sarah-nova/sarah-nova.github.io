@@ -724,11 +724,14 @@ input, select, textarea {
 	grid-template-columns: repeat(2, minmax(0, 1fr));
 	gap: 1rem;
 	margin: 1.5rem 0 2rem 0;
+	align-items: center;
 }
 
-.image-pair img {
+.image-pair img,
+.image-pair video {
 	display: block;
 	width: 100%;
+	max-width: 100%;
 	height: auto;
 	border-radius: 4px;
 }
