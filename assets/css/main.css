@@ -752,6 +752,53 @@ input, select, textarea {
 		grid-template-columns: 1fr;
 	}
 }
+
+@media screen and (max-width: 736px) {
+
+	#research {
+		width: 100%;
+		max-width: 100%;
+		box-sizing: border-box;
+		overflow-x: hidden;
+	}
+
+	#research h2.major {
+		font-size: 1.1rem;
+		letter-spacing: 0.12rem;
+		line-height: 1.5;
+		overflow-wrap: anywhere;
+	}
+
+	.image-pair {
+		display: block;
+		width: 100%;
+		margin: 1.25rem 0 2rem 0;
+	}
+
+	.media-item {
+		display: block;
+		width: 100%;
+		height: auto;
+		margin: 0 0 1rem 0;
+		overflow: hidden;
+		background: #000;
+	}
+
+	.media-item:last-child {
+		margin-bottom: 0;
+	}
+
+	.media-item img,
+	.media-item video {
+		display: block;
+		width: 100%;
+		max-width: 100%;
+		height: auto;
+		aspect-ratio: auto;
+		object-fit: contain;
+	}
+
+}
 /* List */
 
 	ol {
