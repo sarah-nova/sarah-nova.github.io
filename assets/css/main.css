@@ -800,24 +800,6 @@ input, select, textarea {
 
 }
 
-@media screen and (max-width: 736px) {
-
-	.image-pair.mobile-compact > img,
-	.image-pair.mobile-compact > video,
-	.image-pair.mobile-compact > .media-item {
-		width: 100%;
-		max-width: 340px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	.image-pair.mobile-compact .media-item img,
-	.image-pair.mobile-compact .media-item video {
-		width: 100%;
-		height: auto;
-	}
-
-}
 /* List */
 
 	ol {
